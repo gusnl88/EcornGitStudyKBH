@@ -5,3 +5,7 @@
 ->Untracked :저장소에서 참조하지 않은 파일(New File)
 3.git add README:해당 파일은 Staginf Area  영역에서 추적하는 명령어
 ->Staged new file README: index 에서 해당 파일을 추적하는 중이다.
+->nothing to commit, working tree clean :작업이력과 저장소 이력이 같다.
+4.git commit -m "": index 에서 추적하는 내역을 .git(저장소)에 저장하는 명령어
+5.README 파일을 수정후 저장
+->modified README:작업이력과 저장소 이력이 다르다.->저장해라!
